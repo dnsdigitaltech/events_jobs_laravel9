@@ -13,7 +13,7 @@
         <form action="/subscribe" method="POST">
             @csrf
             <div class="col-12">
-                <input type="email" class="form-control" id="email" placeholder="Seu email..." required>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Seu email..." required>
             </div>
             <hr class="my-4">
             <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
